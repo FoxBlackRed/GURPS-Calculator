@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 
 /*
+ * ???  Damage (points) = sqrt (KE/(Caliber (mm) ^0.4))*0.6
+ * 
         Damage (points) = sqrt(KE^1.04/Xsect^0.314)/13.3926
+
+
         KE = mv^2/2 (m - mass, v - speed)
         Xsect = pi(bore^2 / 100(for meeters))/4 (bore - caliber)
         */
