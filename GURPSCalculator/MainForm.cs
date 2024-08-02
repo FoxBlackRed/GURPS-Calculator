@@ -99,6 +99,10 @@ namespace GURPSCalculator
                 {
                     materMod = 1.3;
                 }
+                else if (radioButton6.Checked)
+                {
+                    materMod = 1;
+                }
 
                 DamagePoints dp = new DamagePoints(Convert.ToDouble(CaliberText.Text), Convert.ToDouble(SpeedText.Text), Convert.ToDouble(WeightText.Text), Convert.ToDouble(materMod));
                 AnswerBox.Text = "6dx" + dp.DamageCalc();

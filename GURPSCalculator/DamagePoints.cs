@@ -16,8 +16,13 @@ using System.Xml.Linq;
         */
 
 /*
+•  APHEX or APCR
+1
 •  Steel cap, reinforced core, or semi-armor piercing:    
 1.25
+
+• APDS
+1.3
 
 •  Steel rod core (for APFSD):
 1.5

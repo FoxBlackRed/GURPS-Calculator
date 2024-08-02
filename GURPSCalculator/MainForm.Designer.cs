@@ -42,6 +42,7 @@
             DamPointButton = new Button();
             contextMenuStrip1 = new ContextMenuStrip(components);
             radioButton5 = new RadioButton();
+            radioButton6 = new RadioButton();
             SuspendLayout();
             // 
             // label1
@@ -183,12 +184,24 @@
             radioButton5.Text = "APDS";
             radioButton5.UseVisualStyleBackColor = true;
             // 
+            // radioButton6
+            // 
+            radioButton6.AutoSize = true;
+            radioButton6.Font = new Font("Verdana", 15.75F);
+            radioButton6.Location = new Point(444, 145);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(153, 29);
+            radioButton6.TabIndex = 6;
+            radioButton6.Text = "APHE/APCR";
+            radioButton6.UseVisualStyleBackColor = true;
+            // 
             // GURPScalc
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(763, 288);
             Controls.Add(label1);
+            Controls.Add(radioButton6);
             Controls.Add(radioButton5);
             Controls.Add(radioButton4);
             Controls.Add(DamPointButton);
@@ -221,5 +234,6 @@
         private Label label1;
         private TextBox AnswerBox;
         private RadioButton radioButton5;
+        private RadioButton radioButton6;
     }
 }
